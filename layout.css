@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #672;
+    padding: 50px;
+    text-align: center;
+    background-image: url("tlo2.jpg");
+    front-size: 35px;
+}
+
+section {
+    display: flex;
+}
+
+nav{
+    flex: 1;
+    background: url("gry.jpg");
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #FFFF99;
+    border: 1px solid #7495;
+    border-radius: 10px;
+}
+
+nav li:hover {
+    background-color: #7490;
+    border: 1px solid #7485;
+}
+
+
+article {
+    flex: 3;
+    background: #FFFFCC;
+    padding: 20px;
+}
+
+
+footer{
+    background-color: #663333;
+    padding: 30px;
+    txt-align: center;
+}
+
+@media (max-width: 600px) {
+    section {
+    flex-direction: column;
+    }
+}
